@@ -1,0 +1,62 @@
+video{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.content{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 0, 0)
+}
+
+.overlay{
+    position: absolute;
+    top: 100px;
+    left:0;
+    bottom: 0;
+    width:100%;
+    height: 1100px;
+    background-color: rgba(0, 0, 0,.2);
+
+}
+
+.Page2
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+
+
+.logindiv input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(113, 118, 211);
+    border-radius: 4px;
+  }
+
+  .heading
+{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logindiv h4
+{
+    
+        display: block;
+        padding:0px;
+        
+
+}
