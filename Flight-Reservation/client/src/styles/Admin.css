@@ -1,0 +1,14 @@
+#adminbody
+{
+    height:1000px;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url("../assets/booking2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#adminbody button
+{
+    margin:10px;
+}
