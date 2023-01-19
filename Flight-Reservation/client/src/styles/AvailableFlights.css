@@ -1,0 +1,17 @@
+#searchresultdiv
+{
+ 
+    text-align: left;
+    overflow: hidden;
+    width:5000px;
+    height: 500px;
+    display: inline-block;
+    align-content: baseline;
+}
+
+body #avai
+{
+    background-image: url("../assets/bodyimage.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
