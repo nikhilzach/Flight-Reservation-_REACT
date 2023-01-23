@@ -1,0 +1,11 @@
+#cancelouterdiv
+{
+    height:800px;
+   
+}
+#cancelticketbody
+{
+    background-image: url("../assets/FlightContact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
