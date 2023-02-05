@@ -1,0 +1,118 @@
+#eticketbody
+{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-image: url("../assets/Last.jpg");
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#eticketouterdiv
+{
+    width: 680px;
+    height:950px;
+    border:1px solid black;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+    margin-left:32%;
+    margin-top:20px;
+    background-image: url("../assets/Ticket.jpeg");
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ticketpassengertable
+{
+    width:650px;
+    
+}
+
+#ticketinfo
+{
+    text-align: left;
+    margin-left:10px;
+}
+#ticketpassengertable tr
+{
+    border: 1px solid black;
+    width:70%;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    font-size: large;
+    font-family:'emirates';
+    text-align: center;
+    
+}
+
+h3
+{
+    font-family: 'emirates';
+    font-size: 50px;
+}
+
+p{
+    font-size: small;
+    padding: 0px;
+    margin-top: 1px;
+    margin: 0px;
+    color: darkblue;
+}
+#ticketpassengertable td
+{
+    margin:0px;
+    padding: 0px;
+    width: 100px;
+    background-color: transparent;
+}
+
+h2{
+    font-size: medium;
+}
+
+#printeticket
+{
+    text-align: center;
+    
+}
+
+#ShowResults td
+{
+    margin:0px;
+    padding-bottom: 10px;
+    width:1000px;
+    border: 1px solid black;
+}
+
+@media print {
+    .navbar{
+      display: none;
+    }
+    #eticketouterdiv
+    {
+        margin-left: 2%;
+        background-image: url("../assets/Ticket.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    }
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .footer
+    {
+        display:none;
+    }
+    button
+    {
+        display: none;
+    }
+    #eticketbody
+    {
+        background-image: none;
+    }
+   }
