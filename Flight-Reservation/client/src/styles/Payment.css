@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "emirates";
+    src: url("Emirates\ Medium.ttf");}
+
+#paymentbody
+{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+body #paymentouterdiv
+{
+  
+    width: 100%;
+    height: 700px;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body #paymentdiv
+{
+    background-image: url("../assets/qr.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin-left:0%;
+    margin-top: 100px;
+}
+h2
+{
+    font-family: 'emirates';
+}
+
+div button 
+{
+    height:50px;
+    padding:1px;
+}
