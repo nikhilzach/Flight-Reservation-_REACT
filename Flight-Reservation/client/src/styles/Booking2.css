@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'emirates';
+    src: url("./Emirates\ Medium.ttf");}
+  
+#booking
+{
+    font-family: 'emirates';
+    margin:0;
+    text-align: center;
+}
+    
+
+
+button
+{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(48, 48, 128);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'emirates';
+    font-size: large;
+}
+
+input
+{
+    padding: 10px;
+    font-family: 'emirates';
+    font-size: x-large;
+    width: 500px;
+}
+
+div form 
+{
+    
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 51px;
+    font-family: 'emirates';
+    font-size: larger;
+    align-content: center;
+    align-items: center;
+}
+
+body form input
+{
+    font-size: large;
+    margin-left: 150px;
+    width: 800px;
+    height: 30px;
+    
+}
+
+
+
+label
+{
+    font-size:large;
+    font-weight: bolder;
+    font: solid black;
+}
+
+#submit
+{
+    padding-bottom: 50px;
+}
+
+
+.ShowResults
+{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+body #test2
+{
+    text-align: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+
+table,th,tr
+{
+    border: 1px solid black;
+    width:100%;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    font-size: large;
+    font-family:'emirates';
+    text-align: center;
+    width:1880px;
+    margin:10px;
+    
+   
+    
+}
+
+body #booking2
+{
+    text-align: center;
+    background-image: url("../assets/booking3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#submit
+{
+    width: 150px;
+    height:50px;
+    text-align: center;
+    padding:1px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+#bookthis
+{
+    height:40px;
+    padding: 1px;
+}
+
+h3
+{
+    font-family: 'emirates';
+    font-size: 50px;
+}
+#availflights
+{
+    height:800px;
+}
+
+p{
+    font-size: small;
+    padding: 0px;
+    margin-top: 1px;
+    margin: 0px;
+    color: darkblue;
+}
+td
+{
+    margin:0px;
+    padding-bottom: 10px;
+    width:1000px;
+   
+    
+    background-color: white;
+    
+}
+
+body form label
+{
+    text-align: left;
+    align-content: flex-start;
+    font-weight: bolder;
+    color:darkblue;
+}
+
